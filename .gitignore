@@ -1,0 +1,12 @@
+cat <<EOF > .gitignore
+# Created by venv
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+credentials*.json
+*.log
+*.db
+*.sqlite3
+EOF
